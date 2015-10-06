@@ -1,2 +1,6 @@
-# Kellett-Sixth-Form-Blog
-This used to be the Kellett Sixth Form (Youde) University Blog.  However, as of 07/10/15, it has been officially scrapped.
+# kellettsixthform.github.io
+The Official Kellett Sixth Form Website
+
+## Warning
+
+This is a test branch only.  See ```master``` for the actual website.

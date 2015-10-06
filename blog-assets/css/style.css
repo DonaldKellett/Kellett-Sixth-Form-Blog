@@ -1,0 +1,38 @@
+/*
+  style.css
+  Custom CSS Styling for our awesome blog :D
+  (c) Kellett School Sixth Form. All rights reserved.
+  NOTICE: YOU MAY NOT, IN ANY CIRCUMSTANCES, COPY ANY PORTION OF THE CODE USED IN THIS BLOG FOR YOUR OWN USE WITHOUT THE CONSENT OF (c) Kellett School Sixth Form AND ITS ADMINISTRATOR, Donald Leung.  IF YOU ARE FOUND VIOLATING THIS COPYRIGHT NOTICE, YOU WILL BE ASKED TO REMOVE SAID CODE WITHIN 7 DAYS OF NOTICE, AND IF YOU FAIL TO COMPLY, (c) Kellett School Sixth Form AND Donald Leung HAVE THE RIGHT TO BRING THIS ISSUE TO A LOCAL COURT.
+*/
+
+#public-message {
+  display: block;
+}
+#blog {
+  display: none;
+}
+#invalid-login {
+  color: red;
+  font-size: smaller;
+  display: none;
+}
+.blogpost {
+  background-color: rgb(5, 34, 35);
+  padding: 5px;
+  border-radius: 20px;
+  border: 1px solid #232;
+}
+
+/* Fixing weird formatting in Menu Bar (currently half fixed) */
+
+#otherfuncs a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Closed Threads */
+
+.closed {
+  background-color: #112;
+  border: 1px solid #113;
+}

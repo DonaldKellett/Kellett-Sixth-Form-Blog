@@ -1,0 +1,63 @@
+<!DOCTYPE HTML>
+<!--
+	Landed by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>404 - File or Directory Not Found</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="http://kellettsixthform.github.io/assets/css/main.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+	</head>
+	<body>
+		<div id="page-wrapper">
+
+			<!-- Main -->
+				<div id="main" class="wrapper style1">
+					<div style="text-align: center;">
+						<h2>404 - File or Directory Not Found</h2>
+						<p>
+							Oops, are you sure you have typed in the correct URL?  We couldn't seem to find the file you requested for.  Why don't you return to the homepage and try again?
+						</p>
+						<p>
+							If you see this page due to a broken link, please feel free to directly email <a href="mailto:kellett6formblog@gmail.com">kellett6formblog@gmail.com</a> to report the bug.
+						</p>
+						<p>
+							<a href="http://kellettsixthform.github.io/index.html" class="button special">Return to Blog</a>
+						</p>
+						<p>
+							<span style="font-size: smaller; font-style: italic;">If you do nothing, you will be returned to the blog in <span id="seconds">x</span> seconds.</span>
+						</p>
+					</div>
+				</div>
+
+			<!-- Footer -->
+				<footer id="footer">
+					<ul class="copyright">
+						<li>&copy; Kellett School Sixth Form. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+				</footer>
+
+		</div>
+
+		<script type="text/javascript">
+			var seconds = 60, interval;
+			function timer() {
+				if (seconds <= 0) {
+					clearInterval(interval);
+					window.location = "http://kellettsixthform.github.io/index.html";
+				}
+				document.getElementById("seconds").innerHTML = seconds;
+				seconds --;
+				interval = setTimeout(function () {timer();}, 1000);
+			}
+			timer();
+		</script>
+
+	</body>
+</html>
